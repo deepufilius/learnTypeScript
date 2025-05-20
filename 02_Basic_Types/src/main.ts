@@ -39,3 +39,6 @@ w="string"; // no error
 let y: undefined = undefined;
 let z: null = null;
 //These types don't have much use unless strictNullChecks is enabled in the tsconfig.json file.
+
+let regExp:RegExp = /\w+/g;
+//for something you don't know the type, you can infer it 
